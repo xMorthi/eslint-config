@@ -6,7 +6,8 @@
     "build": "unbuild --stub",
     "stub": "unbuild --stub",
     "prepack": "pnpm run build",
-    "dev:prepare": "unbuild --stub"
+    "dev:prepare": "unbuild --stub",
+    "postinstall": "unbuild --stub"
   },
   "exports": {
     ".": {
