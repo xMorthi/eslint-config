@@ -13,8 +13,8 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: 'pnpm'
-      - run: pnpm ci
+          cache: 'npm'
+      - run: npm ci
 
   publish-gpr:
     needs: build
@@ -29,8 +29,8 @@ jobs:
         with:
           node-version: 20
           registry-url: https://npm.pkg.github.com/
-          cache: 'pnpm'
-      - run: pnpm ci
-      - run: pnpm publish
+          cache: 'npm'
+      - run: npm ci
+      - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
