@@ -3,7 +3,7 @@
   "description": "ESLint config for my projects",
   "version": "1.0.0",
   "scripts": {
-    "build": "unbuild",
+    "build": "unbuild --stub",
     "stub": "unbuild --stub",
     "prepack": "pnpm run build",
     "dev:prepare": "unbuild --stub"
@@ -21,7 +21,8 @@
   "dependencies": {
     "@nuxt/eslint-config": "^0.3.13",
     "eslint": "^9.6.0",
-    "jiti": "^1.21.6"
+    "jiti": "^1.21.6",
+    "unbuild": "^2.0.0"
   },
   "packageManager": "pnpm@9.4.0"
 }
