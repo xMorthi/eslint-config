@@ -1,6 +1,7 @@
 {
   "name": "@xmorthi/eslint-config",
   "description": "ESLint config for my projects",
+  "private": false,
   "version": "1.0.0",
   "scripts": {
     "build": "unbuild --stub",
@@ -24,8 +25,5 @@
     "eslint": "^9.6.0",
     "jiti": "^1.21.6",
     "unbuild": "^2.0.0"
-  },
-  "publishConfig": {
-    "@xmorthi:registry": "https://npm.pkg.github.com"
   }
 }
