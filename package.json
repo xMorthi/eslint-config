@@ -22,5 +22,6 @@
     "@nuxt/eslint-config": "^0.3.13",
     "eslint": "^9.6.0",
     "jiti": "^1.21.6"
-  }
+  },
+  "packageManager": "pnpm@9.4.0"
 }
