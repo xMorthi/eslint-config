@@ -2,25 +2,23 @@
   "name": "@xmorthi/eslint-config",
   "description": "ESLint config for my projects",
   "private": false,
-  "version": "1.0.0",
+  "version": "1.0.1",
+  "type": "module",
   "scripts": {
-    "build": "unbuild --stub",
+    "build": "unbuild",
     "stub": "unbuild --stub",
-    "prepack": "npm run build",
-    "dev:prepare": "unbuild --stub",
-    "postinstall": "unbuild --stub"
+    "prepack": "npm run build"
   },
   "exports": {
     ".": {
       "import": "./dist/flat.mjs",
-      "require": "./dist/flat.cjs",
-      "types": "./dist/flat.d.ts"
+      "require": "./dist/flat.cjs"
     }
   },
   "files": [
     "dist"
   ],
-  "dependencies": {
+  "devDependencies": {
     "@nuxt/eslint-config": "^0.3.13",
     "eslint": "^9.6.0",
     "jiti": "^1.21.6",
