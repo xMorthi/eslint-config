@@ -20,7 +20,7 @@
   ],
   "dependencies": {
     "@nuxt/eslint-config": "^0.3.13",
-    "eslint": "^9.6.0"
+    "eslint": "^9.8.0"
   },
   "devDependencies": {
     "jiti": "^1.21.6",
