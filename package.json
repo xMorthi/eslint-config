@@ -2,7 +2,7 @@
   "name": "@xmorthi/eslint-config",
   "description": "ESLint config for my projects",
   "private": false,
-  "version": "1.0.3",
+  "version": "1.0.4",
   "type": "module",
   "scripts": {
     "build": "unbuild",
