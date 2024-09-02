@@ -2,12 +2,13 @@
   "name": "@xmorthi/eslint-config",
   "description": "ESLint config for my projects",
   "private": false,
-  "version": "1.0.5",
+  "version": "1.0.6",
   "type": "module",
   "scripts": {
     "build": "unbuild",
     "stub": "unbuild --stub",
-    "prepack": "npm run build"
+    "prepack": "npm run build",
+    "ri": "rm -rf node_modules && rm -rf package-lock.json && rm -rf dist && npm i"
   },
   "exports": {
     ".": {
