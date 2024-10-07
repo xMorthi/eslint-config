@@ -24,7 +24,7 @@
     "eslint": "^9.9.1"
   },
   "devDependencies": {
-    "jiti": "^1.21.6",
+    "jiti": "^2.3.3",
     "unbuild": "^2.0.0"
   }
 }
