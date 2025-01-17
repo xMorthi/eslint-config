@@ -102,6 +102,7 @@ export const generateConfig = () =>
         'vue/html-self-closing': 'off',
         'vue/multi-word-component-names': 'off',
         'vue/singleline-html-element-content-newline': 'off',
+        'vue/attribute-hyphenation': 'off',
       },
     })
 
