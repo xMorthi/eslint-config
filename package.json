@@ -20,7 +20,7 @@
     "dist"
   ],
   "dependencies": {
-    "@nuxt/eslint-config": "^0.7.5",
+    "@nuxt/eslint-config": "^0.7.6",
     "eslint": "^9.18.0"
   },
   "devDependencies": {
