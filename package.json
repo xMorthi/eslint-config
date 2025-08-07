@@ -2,7 +2,7 @@
   "name": "@xmorthi/eslint-config",
   "description": "ESLint config for my projects",
   "private": false,
-  "version": "1.0.8",
+  "version": "1.0.9",
   "type": "module",
   "scripts": {
     "build": "unbuild",
@@ -20,11 +20,11 @@
     "dist"
   ],
   "dependencies": {
-    "@nuxt/eslint-config": "^0.7.5",
-    "eslint": "^9.18.0"
+    "@nuxt/eslint-config": "^1.8.0",
+    "eslint": "^9.32.0"
   },
   "devDependencies": {
-    "jiti": "^2.4.2",
-    "unbuild": "^3.3.1"
+    "jiti": "^2.5.1",
+    "unbuild": "^3.6.0"
   }
 }

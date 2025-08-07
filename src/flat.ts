@@ -40,7 +40,7 @@ export const generateConfig = () =>
         curly: ['error', 'all'], // Including if blocks with a single statement
         'dot-notation': 'error',
         // 'no-console': ['warn', { allow: ['warn', 'error', 'debug'] }],
-        'no-console': 'off',
+        'no-console': 'warn',
         'no-lonely-if': 'error', // No single if in an "else" block
         'no-useless-rename': 'error',
         'object-shorthand': 'error',
@@ -103,6 +103,12 @@ export const generateConfig = () =>
         'vue/multi-word-component-names': 'off',
         'vue/singleline-html-element-content-newline': 'off',
         'vue/attribute-hyphenation': 'off',
+        'vue/object-property-newline': [
+          'error',
+          {
+            allowAllPropertiesOnSameLine: false
+          }
+        ]
       },
     })
 
