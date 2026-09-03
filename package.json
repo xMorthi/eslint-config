@@ -25,6 +25,6 @@
   },
   "devDependencies": {
     "jiti": "^2.5.1",
-    "unbuild": "^3.6.0"
+    "unbuild": "^3.6.1"
   }
 }
